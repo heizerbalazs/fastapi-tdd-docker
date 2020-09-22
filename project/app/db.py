@@ -11,7 +11,7 @@ log = logging.getLogger(__name__)
 
 def init_db(app: FastAPI) -> None:
     register_tortoise(
-        application,
+        app,
         db_url=os.environ.get("DATABASE_URL"),
         modules={"models": ["app.models.tortoise"]},
         generate_schemas=False,
