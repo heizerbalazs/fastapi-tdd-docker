@@ -1,5 +1,17 @@
 {
     "python.pythonPath": "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/bin/python3.7",
     "python.autoComplete.extraPaths": [
-        "/Users/balazsheizer/DEV/fastapi-tdd-docker/project/env/lib/python3.7/site-packages"]
+        "/Users/balazsheizer/DEV/fastapi-tdd-docker/project/env/lib/python3.7/site-packages"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config=/Users/balazsheizer/DEV/fastapi-tdd-docker/project/setup.cfg"
+    ],
+    "python.linting.flake8Path": "/Users/balazsheizer/DEV/fastapi-tdd-docker/project/env/bin/flake8",
+    "python.formatting.blackPath": "project/env/bin/black",
+    "python.formatting.blackArgs": [
+        "--config=/Users/balazsheizer/DEV/fastapi-tdd-docker/project/setup.cfg"
+    ]
 }
